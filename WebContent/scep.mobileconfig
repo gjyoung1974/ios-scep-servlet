@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+   <!--SCEP Profile config created just for you!-->
+   <dict>
+      <key>PayloadContent</key>
+      <array>
+         <dict>
+            <key>PayloadContent</key>
+            <dict>
+               <key>Challenge</key>
+               <string>52976E989EA718F89CD3469DF3FB00E4</string>
+               <key>Key Type</key>
+               <string>RSA</string>
+               <key>Key Usage</key>
+               <integer>5</integer>
+               <key>Keysize</key>
+               <integer>2048</integer>
+               <key>Name</key>
+               <string>CA-NDES01</string>
+               <key>Subject</key>
+               <array>
+                  <array>
+                     <array>
+                        <string>O</string>
+                        <string>Acme</string>
+                     </array>
+                  </array>
+                  <array>
+                     <array>
+                        <string>OU</string>
+                        <string>PKI</string>
+                     </array>
+                  </array>
+                  <array>
+                     <array>
+                        <string>CN</string>
+                        <string>IOSPKIGB020MQHA904083005940494.corp.acme.local</string>
+                     </array>
+                  </array>
+               </array>
+               <key>URL</key>
+               <string>http://10.10.10.8/certsrv/mscep/mscep.dll</string>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>Configures SCEP</string>
+            <key>PayloadDisplayName</key>
+            <string>SCEP (CA-DC01)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.acme.pki.util.scep.profile.scep1</string>
+            <key>PayloadOrganization</key>
+            <string>ACMECORP</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.scep</string>
+            <key>PayloadUUID</key>
+            <string>608023d5-a71a-4662-9567-317065c7f60f</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+         </dict>
+      </array>
+      <key>PayloadDescription</key>
+      <string>ACME PKI NDES Profile</string>
+      <key>PayloadDisplayName</key>
+      <string>SCEP_Payload</string>
+      <key>PayloadIdentifier</key>
+      <string>com.acme.pki.util.scep.profile</string>
+      <key>PayloadOrganization</key>
+      <string>ACMECORP</string>
+      <key>PayloadRemovalDisallowed</key>
+      <false />
+      <key>PayloadType</key>
+      <string>Configuration</string>
+      <key>PayloadUUID</key>
+      <string>17a31f87-64fa-496e-83e3-f01a696340eb</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+   </dict>
+</plist>
